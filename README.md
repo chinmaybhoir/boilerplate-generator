@@ -10,3 +10,12 @@ Currently only Python-Flask-UWSGi applications have been included. I will keep o
 ```commandline
 python boilerplate_generator.py [--python-uwsgi] dirname
 ``` 
+This command generates following structure
+
+```commandline
+dirname
+    |--requirements.txt
+    |--uwsgi_ini.ini
+    |--server_flask.py
+    
+```
